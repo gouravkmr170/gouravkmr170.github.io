@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*--Navigation--*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 70px;
+    padding-left : 10px; /*--height and padding of logo--*/
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+ text-align: left;
+ font-size: medium;
+}
+#nav-bar ul li a:hover /*Colour change of Text while Hovering Pointer*/
+{
+    color: #1172e0!important;
+}
+.navbar
+{
+    background: white
+;
+}
+.navbar-toggler
+{
+    border: none!important; /*--important because we are over writing bootstrap -->*/
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*-----------------Navigation Ends-----------------*/
+
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(softwares/quicktime/quicktimew.jpg);
+    background-position: center;
+    background-size:cover; 
+}
+.software-details
+{
+    margin: 3% 0;
+}
+
+.left-box
+{
+    color: #fff;
+}
+.creator img
+{
+    height: 60px;
+    width: 60px;
+    box-shadow:-4px -4px 5px 0 #000;
+}
+.left-box a
+{
+text-decoration:none!important;
+border-radius: 30px;
+padding: 7px 20px;
+margin-top: 35px;
+color:#fff!important;
+background: #107adf;
+font-weight: 600;
+display: inline-block;
+margin-right: 10px;
+
+}
+.download-btn
+{
+    border: 1px solid #fff!important;
+    background: transparent!important;
+}
+.software-img:hover
+{
+    transform: translateY(-5px);
+}
+.software-img
+{
+    height:350px;
+    width:350px;
+    box-shadow: 8px 8px 10px 0 #000;
+
+}
+.series h3
+{
+    color: #fff;
+
+}
+.series img     
+{
+    width:100%;
+    margin-top: 15px;
+    box-shadow:-4px -4px 5px 0 #000;
+    cursor: pointer;
+
+}
+.series img:hover
+{
+    transform: translateY(-10px);
+}

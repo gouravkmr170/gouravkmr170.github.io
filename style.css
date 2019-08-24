@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*--Navigation--*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img
+{
+    height: 70px;
+    padding-left : 10px; /*--height and padding of logo--*/
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    float: right;
+ text-align: left;
+ font-size: medium;
+}
+#nav-bar ul li a:hover /*Colour change of Text while Hovering Pointer*/
+{
+    color: #1172e0!important;
+}
+.navbar
+{
+    background: white;
+}
+.navbar-toggler
+{
+    border: none!important; /*--important because we are over writing bootstrap -->*/
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*-----------slider------------*/
+#slider
+{
+    width: 100%;
+}
+.carousel-caption
+{
+    top: 70%;
+    transform: translateY(-70%);
+    bottom: initial!important;
+}
+.carousel-caption h5
+{
+    color:white;
+    font-size : 55px;
+    font-family: 'Monoton', cursive;
+}
+
+/*---------About----------*/
+#about
+{ 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color:#555;
+}
+#about .btn
+{
+margin-top: 20px;
+margin-bottom: 30px;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.Skills-bar p
+{
+margin-bottom: 6px;
+font-weight: 600;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px!important;
+    margin-bottom: 20px;
+}
+
+/*---------Services---------------*/
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/pic1.jpg);
+background-size: cover;
+background-position: center;
+color: #efefef!important;
+background-attachment: fixed;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+#services h1
+{
+    text-align: center;
+    color: #efefef!important;
+    padding-bottom: 10px;
+}
+#services h1::after
+{
+  content: '';
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+
+}
+.services
+{ 
+    margin-top: 40px;
+    
+}
+.icon 
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding:20px;
+    height: 80px;
+    width:80px;
+    border:1px solid #fff;
+    border-radius: 50%;
+}
+.services-caption
+{
+    top: 70%;
+    transform: translateY(-70%);
+    bottom: initial!important;
+}
+
+#services p 
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.services .col-md-3:hover
+{
+    background:#007bff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
